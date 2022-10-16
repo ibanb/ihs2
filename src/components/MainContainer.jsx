@@ -262,7 +262,7 @@ export default function MainContainer() {
                                     {/* <Link to={ `${selectedItem?.data[dataIndex].link}` } className="ok">
                                         OK
                                     </Link> */}
-                                    <a href={selectedItem?.data[dataIndex].link} className="ok">OKKKK</a>
+                                    <a href={selectedItem?.data[dataIndex].link} className="ok">OKKKKKKK</a>
                                 </div>
                             </div>
                         </div>
