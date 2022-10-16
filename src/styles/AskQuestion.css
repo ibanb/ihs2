@@ -1,0 +1,225 @@
+.feedBackFromUsers {
+    position: relative;
+}
+
+.columnElements {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+
+.columnElements label {
+    color: rgb(205, 205, 205);
+    margin-bottom: 6px;
+}
+
+.columnElements input,
+.columnElements textarea,
+.columnElements select {
+    border: 2px solid silver;
+    padding: 5px;
+    outline: none;
+}
+
+.columnElements textarea {
+    padding: 15px 22px;
+    margin-bottom: 10px;
+}
+
+.askQuestion .sendButton {
+    text-align: center;
+}
+
+.askQuestion .sendButton button {
+    padding: 12px 40px;
+    border-radius: 22px;
+    color: rgb(90, 89, 89);
+    font-size: 17px;
+    outline: none;
+    border: 1px solid silver;
+}
+
+
+/* loading */
+
+.feedBackFromUsers .loading {
+    margin: auto;
+    height: 400px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.feedBackFromUsers .loading p {
+    margin-top: 8px;
+    color: rgb(187, 184, 184);
+}
+
+
+/* success */
+
+.successFullMessage {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    height: calc(100vh - 300px);
+}
+
+.successFullMessage .message {
+    width: 300px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(189, 186, 186);
+}
+
+.successFullMessage .icon_ready {
+    background-color: rgb(233, 230, 230);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon_ready .checkData {
+    color: black;
+    font-size: 30px;
+}
+
+/* error */
+
+.errorMessage {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.errorMessage .icon_ready .checkError {
+    font-size: 40px;
+}
+
+.errorMessage .error_text p {
+    font-size: 17px;
+    color: rgb(177, 176, 176);
+    margin-top: 20px;
+}
+
+.errorMessage button {
+    padding: 10px 40px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid silver;
+    background-color: rgb(96, 95, 95);
+    color: rgb(234, 230, 230);
+}
+
+/* loader styles*/
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-roller div {
+    animation: 3s lds-roller cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #fff;
+    margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+    animation-delay: 1.7s;
+}
+
+.lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+    animation-delay: 1.4s;
+}
+
+.lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+    animation-delay: 1.1s;
+}
+
+.lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+    animation-delay: 0.2s;
+}
+
+.lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+    animation-delay: 0.1s;
+}
+
+.lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+}
+
+@keyframes lds-roller {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

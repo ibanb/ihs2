@@ -1,0 +1,180 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    padding: 20px 30px;
+    border-top: 5px solid rgb(45, 42, 42);
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerItems {
+    display: flex;
+    color: white;
+    margin: 20px 5px 0px;
+}
+
+
+footer .footerItems .footer_rightPart {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+footer .footerItems button {
+    border: none;
+}
+
+footer .footerItems .footerLeftContents {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .footerItems .footerLeftContents .imherestudio {
+    font-size: 22px;
+    color: rgb(198, 198, 198);
+    font-weight: 600;
+}
+
+footer .footerItems .footerLeftContents p {
+    margin: 0;
+    color: rgb(167, 167, 167);
+}
+
+
+.footerItems div button {
+    margin: 0 5px;
+}
+
+footer .footerItems .phone {
+    color: white;
+}
+
+.socialNetwork .telegram, .socialNetwork .whatsapp {
+    font-size: 35px;
+}
+
+
+.socialNetwork .telegram {
+    margin-right: 14px;
+    color: rgb(41, 143, 245);
+} 
+
+.socialNetwork .whatsapp {
+    margin-right: 30px;
+    color: rgb(57, 207, 40);
+
+}
+
+
+footer .footerRightContents {
+    display: flex;
+}
+
+footer .footerRegistration {
+    display: flex;
+}
+
+footer .footerRegistration p.footerRegistration_number {
+    color: white;
+    margin-left: -18px;
+    margin-top: 3px;
+}
+
+footer .rightFooterContent {
+    margin-top: 20px;
+}
+
+footer .rightFooterContent .mail_address {
+    color: aliceblue;
+    display: flex;
+}
+
+footer .rightFooterContent .mail_address p {
+    font-size: 18px;
+}
+
+footer .rightFooterContent .mail_address .mail_info {
+    font-size: 30px;
+}
+
+footer .rightFooterContent .mail_address .mail_info-link {
+    color: white;
+}
+
+footer .rightFooterContent .mail_address p {
+    margin-left: 15px;
+    margin-top: 2px;
+}
+
+
+@media (max-width: 530px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    footer .container {
+        display: flex;
+    }
+
+    footer .footerItems .footerLeftContents .imherestudio {
+        font-size: 18px;
+    }
+
+
+    footer .footerItems p {
+        font-size: 14px;
+    }
+
+    footer .rightFooterContent .mail_address p {
+        font-size: 14px;
+    }
+
+    footer .rightFooterContent .mail_address .mail_info {
+        font-size: 22px;
+    }
+
+    .socialNetwork .telegram, .socialNetwork .whatsapp {
+        font-size: 26px;
+    }
+
+    footer .footerRegistration p.footerRegistration_number {
+        color: white;
+        margin-left: -18px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 441px) {
+    footer .footerItems .footerLeftContents .imherestudio {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    footer .footerItems p {
+        font-size: 11px;
+    }
+
+    footer .footerRegistration p.footerRegistration_number {
+        color: white;
+        margin-left: -18px;
+        margin-top: 3px;
+        font-size: 11px;
+    }
+
+    footer .rightFooterContent .mail_address .mail_info {
+        font-size: 20px;
+    }
+
+    .socialNetwork .telegram, .socialNetwork .whatsapp {
+        font-size: 24px;
+    }
+}
+
