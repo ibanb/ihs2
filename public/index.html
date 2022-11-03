@@ -29,6 +29,18 @@
   <script>
 
   </script>
+  <script>
+    (function(){(function c(d,w,m,i) {
+        window.supportAPIMethod = m;
+        var s = d.createElement('script');
+        s.id = 'supportScript'; 
+        var id = 'e77c9b37f43e759d071e82c91b8a027c';
+        s.src = (!i ? 'https://lcab.talk-me.ru/support/support.js' : 'https://static.site-chat.me/support/support.int.js') + '?h=' + id;
+        s.onerror = i ? undefined : function(){c(d,w,m,true)};
+        w[m] = w[m] || function(){(w[m].q = w[m].q || []).push(arguments);};
+        (d.head || d.body).appendChild(s);
+    })(document,window,'TalkMe')})();
+</script>
 </body>
 
 </html>
